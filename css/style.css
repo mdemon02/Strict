@@ -1,0 +1,247 @@
+/* font-family: 'Lato', sans-serif; */
+
+/* common css start */
+*{
+    /* box-sizing: border-box; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400; 
+    color: #999999;
+}
+/* common css end */
+
+/* header start */
+.header{
+    background-color: #f6f9f9;
+    padding: 25px 0;
+}
+.wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.logo{
+    margin-top: 7px;
+    float: left;
+    /* border: 1px solid black; */
+    width: 15%;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    /* border: 1px solid black; */
+    width: 68%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: right;
+    list-style: none;
+}
+.menu ul li a{
+    margin: 0px 162px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: #2d3950;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #15a4fa;
+    color: #15a4fa;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-image: url(../images/banner);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 500px;
+}
+.b_contant{
+    text-align: center;
+}
+.b_bold{
+    border-bottom: 2px solid #15a4fa;
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    margin: 0 250px;
+}
+.b_text{
+    padding: 40px 0 65px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+.b_button{
+    height: 60px;
+    width: 175px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.b_button:hover{
+    background-color: #15a4fa;
+}
+
+/* banner end */
+
+/* simple start */
+.simple{
+    background-color: #f6f9f9;
+}
+.simple_contant{
+    padding: 80px 0 110px;
+    text-align: center;
+}
+.sim_h2{
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.sim_text{
+    margin: 0;
+    font-size: 20px;
+}
+/* simple end */
+
+/* optimize start  */
+.optimize{
+    margin: 60px 0;
+}
+.opti_contant{
+    overflow: hidden;
+}
+.opti_single{
+    transition: .6s;
+    padding: 0 15.9px;
+    float: left;
+    text-align: center;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.opti_single:hover{
+    transform: scale(0.6);
+}
+.opti_img{
+    width: 40%;
+    margin: 0 auto;
+}
+.opti_img img{
+    width: 100%;
+}
+.opti_h2{
+    
+    margin: 30px 0 22px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.opti_text{
+    margin: 0;
+    line-height: 22px;
+}
+/* optimize end  */
+
+/* sukage start */
+.sukage{
+    background-color: #f6f9f9;
+}
+.sukage_contant{
+    overflow: hidden;
+    margin: 80px 0 115px;
+}
+.sukage_heading{
+    text-align: center;
+}
+.sukage_heading h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.sukage_heading p{
+    margin: 20px 0 80px;
+}
+.sukage_photo{}
+.sukage_collam{
+    padding: 6px;
+    width: 32%;
+    float: left;
+}
+.sukage_collam img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* sukage end */
+
+/* form section start */
+.f_section{
+    min-height: 400px;
+    background-image: url(../images/form);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.f_main_contant{
+    
+}
+.f_heading{}
+.f_heading h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.f_heading p{
+    margin: 20px 0 40px;
+}
+.form{}
+.f_name{}
+.massage{}
+/* form section end */
+
+/* footer start */
+.footer{
+    padding: 38px 0;
+    background-color: #f6f9f9;
+}
+.fo_contant{
+    overflow: hidden;
+}
+.f_left{
+    float: left;
+}
+.f_left p{}
+.f_right{
+    overflow: hidden;
+    float: right;
+}
+.f_img{
+    padding-left: 8px;
+    float: left;
+}
+.f_right img{}
+/* footer end */
